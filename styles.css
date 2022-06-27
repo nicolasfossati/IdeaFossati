@@ -68,13 +68,12 @@
 
 .header{
     display: grid;
-    box-sizing: border-box;
     height: auto;
     grid-area: header;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: stretch;
     color: white;
-    background: linear-gradient(black,blue);
+    background: radial-gradient(blue, black);
     border: 1px solid black;
     align-items: center;
     font-size: 1.5rem;
@@ -158,28 +157,36 @@ color: white;
     grid-area: contenido;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     color: white;
     justify-content: left;
     border: 1px solid white;
     background-color: black;
     text-align: center;
     align-items: center;
-    justify-items: center;
+    justify-items:center;
     align-content: center;
-    top: 15px;
+    margin-top: 0%;
     left: 15px;
 }
 
 .contenido img{
-    
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    padding: 10px;
-
+    display: flex;
+    justify-items:start;
+    align-items: stretch;
+    justify-content:start;
+    align-content:stretch;
+    padding: 0;
+    margin-bottom: 250px;
+    box-shadow: 20px 20px 10px blue;
 }
+
+.contenido nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .footer{
     display: flex;
     box-sizing: border-box;
