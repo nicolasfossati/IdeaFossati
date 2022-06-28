@@ -14,3 +14,114 @@
     color: white;
     align-self: flex-end;
 }
+
+
+.galeria-contenedor{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.galeria-grilla{
+    height: 100%;
+
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:repeat(4, 1fr);
+
+    grid-template-areas:
+    "img1 img2 img3 img4 img5"
+    "img6 img7 img8 img9 img10"
+    "img11 img12 img13 img14 img15"
+    "img16 img17 img18 img19 img20";
+}
+
+.galeria-grilla img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.grilla-img1{
+    grid-area: img1;
+}
+
+.grilla-img2{
+    grid-area: img2;
+}
+
+.grilla-img3{
+    grid-area: img3;
+}
+
+.grilla-img4{
+    grid-area: img4;
+}
+
+.grilla-img5{
+    grid-area: img5;
+}
+
+.grilla-img6{
+    grid-area: img6;
+}
+
+.grilla-img7{
+    grid-area: img7;
+}
+
+.grilla-img8{
+    grid-area: img8;
+}
+
+.grilla-img9{
+    grid-area: img9;
+}
+
+.grilla-img10{
+    grid-area: img10;
+}
+
+.grilla-img11{
+    grid-area: img11;
+}
+
+.grilla-img12{
+    grid-area: img12;
+}
+
+.grilla-img13{
+    grid-area: img13;
+}
+
+.grilla-img14{
+    grid-area: img14;
+}
+
+.grilla-img15{
+    grid-area: img15;
+}
+
+.grilla-img16{
+    grid-area: img16;
+}
+
+.grilla-img17{
+    grid-area: img17;
+}
+
+.grilla-img18{
+    grid-area: img18;
+}
+
+.grilla-img19{
+    grid-area: img19;
+}
+
+.grilla-img20{
+    grid-area: img20;
+}
+
