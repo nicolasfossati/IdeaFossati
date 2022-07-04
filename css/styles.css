@@ -1,19 +1,77 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* 
 html{
     font-size: 62.5rem;
+} */
+.header{
+    background-color: blue;
+} */
+
+.footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(80, 80, 189);
+    color: white;
+    align-self: flex-end;
 }
 
+.container-imagenes{
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+div div a:hover{
+    transform: scale(1.5);
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+
+.nav-item:hover{
+    background-color:black;
+    border: 3px;
+    border-color: black;
+    font-size: 150%;
+    color: blue;
+    border-radius: 8px;
+    transition-duration: 1.2s;
+}
+
+img.img-fluid:hover{
+    border-radius: 10%;
+    transform: scale(1.7);
+    transition-duration: 1.5s;
+    /* border-radius: 10%;
+    
+    transform: rotateZ(360deg);
+    transition-duration: 2s; */
+}
+
+
+
+
+/* .div div div img{
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+          
+}
 img.img-fluid :active{
     border-radius: 50%;
     transform: scale(1.5);
 } 
  
 
-
-.nav-link:hover{
+/* 
+.navbar ul li:hover{
     background-color: white;
     border: 2px;
     border-color: black;
@@ -22,8 +80,8 @@ img.img-fluid :active{
     transition-duration: 0.8s;
     color: black;
 }
-.div a:hover{
+div a:hover{
     transform: scale(1.5);
     transform: rotateY(360deg);
     transition-duration: 1.5s;
-}
+} */
