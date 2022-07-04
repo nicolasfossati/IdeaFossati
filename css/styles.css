@@ -5,19 +5,19 @@
 html{
     font-size: 62.5rem;
 }
-.header{
+/* .header{
     background-color: blue;
-}
+} */
 
-.footer{
+/* .footer{
     margin: 0;
     padding: 0;
     background-color: rgb(80, 80, 189);
     color: white;
     align-self: flex-end;
-}
+} */
 
-.container-imagenes{
+/* .container-imagenes{
     display: flex;
     flex-flow: column wrap;
     box-sizing: border-box;
@@ -26,21 +26,33 @@ html{
     justify-items: center;
     align-content: center;
     justify-content: flex-start;
-}
+} */
 
-.div div div img{
+/* .div div div img{
     display: flex;
     width: 100%;
     margin: 5px;
     padding: 5px;
           
-}
-.div.img :hover{
+} */
+.img-fluid :hover{
     border-radius: 50%;
     transform: scale(1.5);
-
 } 
  
-.a.nav-link:hover{
-   transform: scale(3); 
+
+
+div div div ul li.nav-item a:hover{
+    background-color: white;
+    border: 2px;
+    border-color: black;
+    font-size: 150%;
+    border-radius: 8px;
+    transition-duration: 0.8s;
+    color: black;
+}
+.container-fluid.row a:hover{
+    transform: scale(1.5);
+    transform: rotateY(360deg);
+    transition-duration: 1.5s;
 }
