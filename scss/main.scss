@@ -1,15 +1,15 @@
 // sass --watch ./scss/main.scss ./css/styles.css
 
-@import "reseteo";
-@import "tipografia";
+@import "base/reseteo";
+@import "base/tipografia";
 
 
 
-@import "variables";
-@import "header";
-@import "navbar";
-@import "footer";
-@import "botones";
+@import "componentes/variables";
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/footer";
+@import "componentes/botones";
 
 
 
