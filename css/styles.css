@@ -1,17 +1,88 @@
-* {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.color_principal {
+  color: black;
 }
 
-.container header div a :hover {
+.color_secundario {
+  color: blue;
+}
+
+.color_terciario {
+  color: blueviolet;
+}
+
+.header div a:hover {
   transform: scale(1.5);
   transform: rotateY(360deg);
   transition-duration: 1.5s;
+}
+
+.menu li:hover {
+  border: 2px;
+  border-color: black;
+  font-size: 150%;
+  border-radius: 8px;
+  transition-duration: 1.2s;
+  color: black;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+* ::selection {
+  background-color: blueviolet;
+}
+
+.header a {
+  background: radial-gradient(blue, black);
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.menu navbar {
+  border-radius: 15px;
+  background-color: grey;
+}
+
+.foto_hero {
+  padding: 10px;
+}
+
+.resumen {
+  margin: 15px;
+  padding: 15px;
+  border-color: black;
+}
+.resumen h2 p {
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.biografia {
+  padding: 15px;
+}
+
+.manuscritos {
+  padding: 15px;
+}
+
+.fotos {
+  padding: 15px;
 }
 
 img.img-fluid:hover {
   border-radius: 10%;
   transform: scale(1.7);
   transition-duration: 1.5s;
+}
+
+.enlaces {
+  padding: 25px;
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

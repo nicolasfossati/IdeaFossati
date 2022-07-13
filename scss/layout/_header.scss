@@ -1,11 +1,9 @@
-.container header{
-    div{
-        a{
-            :hover{
-                transform: scale(1.5);
-                transform: rotateY(360deg);
-                transition-duration: 1.5s;
-            }
-        }
+.header{
+    a{
+        background: radial-gradient(blue,black);
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 15px;
+        color: white;
     }
 }
