@@ -45,24 +45,32 @@
   background-color: grey;
 }
 
+.footer {
+  padding: 5px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 15px;
+}
+
 .foto_hero {
   padding: 10px;
 }
 
 .resumen {
-  margin: 15px;
-  padding: 15px;
-  border-color: black;
-}
-.resumen h2 p {
-  text-align: center;
   color: white;
-  border-radius: 15px;
-  border-color: black;
+  text-align: center;
 }
 
 .biografia {
   padding: 15px;
+}
+.biografia .article {
+  text-align: center;
+  align-items: center;
+}
+.biografia .article p {
+  background-color: black;
+  color: white;
 }
 
 .manuscritos {
